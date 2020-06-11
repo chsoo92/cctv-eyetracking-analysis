@@ -31,10 +31,18 @@ For example,
 
 # Result
 
-Initial analysis results are illustrated in summary2.pdf and summary3.pdf. The initial analysis results are messy and hard to generalize. However, one pattern robust thoroughout the different analysis was that features from the early part of the videos are highly similary across different groups and 
+Initial analysis results are illustrated in summary2.pdf and summary3.pdf. The initial analysis results are messy and hard to generalize. However, one pattern robust thoroughout the different analysis was that features from the early part of the videos are highly similar across different groups and action categories
 
 
 <img src="Picture4.png" width="700" height="450">
+
+As shown in the above graph, the first frame are the most correlated out of 40 frames. similar across experts and novices. In other words, whether noivce or expert, participants' eye-tracking data are similar in the early portion of the videos. This bias is due to screen center bias:people tend to stare at the center of a screen when a video starts (https://www.sciencedirect.com/science/article/pii/S0042698910004025).
+
+To minimize the screen center bias in the early portion of the vidoes, more analyses were done excluding frames 1 to 4. 
+
+<img src="figure1.png" width="700" height="450">
+<img src="figure2.png" width="700" height="450">
+<img src="figure3.png" width="700" height="450">
 
 
 
