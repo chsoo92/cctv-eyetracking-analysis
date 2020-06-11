@@ -11,7 +11,7 @@ Deep Learning Decoding
 The eye=tracking data were fed into to a deep learning model (AlexNet), and high-level features from the deep fully-connected layer (fc7) were extracted. However, logistic regression of action category on the extracted feature (elastic net regularization), showed that only the fighting category yielded a significantly accurate result (M = 0.68, p = 0.006). Interestingly, the last chunk from the fighting videos had a disproportional influence on the classification.
 
 The goals of this data analysis:
-> 1. Explore which frames of the videos are consistently represented in the deep layer, across different categories and groups. 
+> 1. Explore which frames of the videos are similarly represented in the deep layer, across different categories and groups. 
 2. Explore how different frame groupings influence intergroup/category similarity.
 
 # Data
@@ -20,15 +20,18 @@ Since 'fea_fc7_all_v3' is a 21x4096x40x36 multidimensional array, it is too heav
 > 21 participants(10 novices and 11 experts).
 >36 videos (4 action categories, 9 videos for each category).
 >Each video consists of 40 frames.
->For each frame, the extracted features are represented in 1 x 4096.
+>For each frame, the extracted features are represented as a 1 x 4096 vector.
 
-To quantify consistency, correlation and cosine distance of the deep layer features.
+There are three main frame groupings:individual frame, cumulative (1~x), and chunking (1 chunk = 4 frames) (chunk and cumlative groupings are either concatenated or averaged).
 
+Correlation and cosine distance of the deep layer features across participant groups quantify similarity.
+For example, 
+> group: experts. grouping: concatenated chunk (1~4). action: fighting. Each feature (1x4096) is concatenated such that the chunk for each expert is a 1x16384 vector. Then, get correlation matrix or cosine distance matrix across 11 experts (11x11 matrix). The mean of such matrix represents correlation or cosine distance for the 1~4 frame chunk.
 
+See summary2.pdf and summary3.pdf for detailed information.
+ㄴ
 
 # Result
-
-
 
 See summary2.pdf and summary3.pdf for detailed information.
 
