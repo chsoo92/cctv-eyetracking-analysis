@@ -17,10 +17,10 @@ The goals of this data analysis:
 # Data
 
 Since 'fea_fc7_all_v3' is a 21x4096x40x36 multidimensional array, it is too heavy to be uploaded here.
-> 21 participants(10 novices and 11 experts) 
+> 21 participants(10 novices and 11 experts).
 >36 videos (4 action categories, 9 videos for each category).
 >Each video consists of 40 frames.
->For each frame, the extracted features are represented in 1 x 4096 
+>For each frame, the extracted features are represented in 1 x 4096.
 
 To quantify consistency, correlation and cosine distance of the deep layer features.
 
