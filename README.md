@@ -17,6 +17,7 @@ The goals of this data analysis:
 # Data
 
 Since 'fea_fc7_all_v3' is a 21x4096x40x36 multidimensional array, it is too heavy to be uploaded here.
+http://naver.me/FwwAeBFe
 > 21 participants(10 novices and 11 experts).
 >36 videos (4 action categories, 9 videos for each category).
 >Each video consists of 40 frames.
