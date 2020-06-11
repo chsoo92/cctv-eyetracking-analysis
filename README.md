@@ -11,9 +11,7 @@ Deep Learning Decoding
 The eye=tracking data were fed into to a deep learning model (AlexNet), and high-level features from the deep fully-connected layer (fc7) were extracted. However, logistic regression of action category on the extracted feature (elastic net regularization), showed that only the fighting category yielded a significantly accurate result (M = 0.68, p = 0.006). Interestingly, the last chunk from the fighting videos had a disproportional influence on the classification.
 
 The goals of this data analysis:
-> 1. Explore which frames of the videos are similarly represented in the deep layer, across different categories and groups. 
-2. Explore how different frame groupings influence intergroup/category similarity.
-3. How and where expert and novice data are different from one another
+> 1. Explore which frames of the videos are similarly represented in the deep layer, across different categories and groups. 2. Explore how different frame groupings influence intergroup/category similarity. 3. How and where expert and novice data are different from one another
 
 # Data
 
