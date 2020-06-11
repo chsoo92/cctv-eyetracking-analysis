@@ -13,6 +13,7 @@ The eye=tracking data were fed into to a deep learning model (AlexNet), and high
 The goals of this data analysis:
 > 1. Explore which frames of the videos are similarly represented in the deep layer, across different categories and groups. 
 2. Explore how different frame groupings influence intergroup/category similarity.
+3. How and where expert and novice data are different from one another
 
 # Data
 
@@ -29,12 +30,10 @@ Correlation and cosine distance of the deep layer features across participant gr
 For example, 
 > group: experts. grouping: concatenated chunk (1-4). action: fighting. Each feature (1x4096) is concatenated such that the chunk for each expert is a 1x16384 vector. Then, get correlation matrix or cosine distance matrix across 11 experts (11x11 matrix). The mean of such matrix represents correlation or cosine distance for the 1-4 frame chunk.
 
-See summary2.pdf and summary3.pdf for detailed information.
-
 
 # Result
 
-See summary2.pdf and summary3.pdf for detailed information.
+Initial analysis results are illustrated in summary2.pdf and summary3.pdf. The initial analysis results are messy and hard to generalize. However, one pattern robust thoroughout the different analysis was that features from the early part of the videos are highly similary across different groups and 
 
 
 
