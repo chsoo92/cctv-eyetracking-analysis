@@ -41,8 +41,16 @@ As shown in the above graph, the first frame are the most correlated out of 40 f
 To minimize the screen center bias in the early portion of the vidoes, more analyses were done excluding frames 1 to 4. 
 
 <img src="Figure1.png" width="700" height="450">
+figure 1
 <img src="figure2.png" width="700" height="450">
+figure 2
 <img src="figure3.png" width="700" height="450">
+figure 3
 
+I removed the first 4 frames and obtained a new figure of the frames with the highest correlation (figure 1). The red bars indicate that the frames with the highest correlation differ by more than 2 frames between experts and novices. The blue bars signify otherwise (less than or equal to 2 frame difference). So each red bar signifies that frames with the highest correlation differ between experts and novices. 
+
+Also, I removed the first chunk in the chunking method. In figure 2, the right graph is the original p-value graph with all the chunks. The left graph is for the first chunk removed. p-values in both graphs are identical except at the first chunk, as the values for the removed first chunk are 0.
+
+Figure 3 compares the original chunk index graph (right) with the new one with the first chunk removed (left). For the chunking method, the red bars indicate that the chunks with the highest correlation are not identical between experts and novices. The blue bars indicate that the chunks with the highest correlation are identical between experts and novices.
 
 
