@@ -29,7 +29,7 @@ For example,
 > group: experts. grouping: concatenated chunk (1~4). action: fighting. Each feature (1x4096) is concatenated such that the chunk for each expert is a 1x16384 vector. Then, get correlation matrix or cosine distance matrix across 11 experts (11x11 matrix). The mean of such matrix represents correlation or cosine distance for the 1~4 frame chunk.
 
 See summary2.pdf and summary3.pdf for detailed information.
-ㄴ
+
 
 # Result
 
