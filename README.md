@@ -40,7 +40,7 @@ As shown in the above graph, the first frame are the most correlated out of 40 f
 
 To minimize the screen center bias in the early portion of the vidoes, more analyses were done excluding frames 1 to 4. 
 
-<img src="figure1.png" width="700" height="450">
+<img src="Figure1.png" width="700" height="450">
 <img src="figure2.png" width="700" height="450">
 <img src="figure3.png" width="700" height="450">
 
