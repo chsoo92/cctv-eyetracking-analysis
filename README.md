@@ -34,7 +34,7 @@ For example,
 Initial analysis results are illustrated in summary2.pdf and summary3.pdf. The initial analysis results are messy and hard to generalize. However, one pattern robust thoroughout the different analysis was that features from the early part of the videos are highly similary across different groups and 
 
 
-![](Picture4.png)
+<img src="Picture4.png" width="324" height="250">
 
 
 
